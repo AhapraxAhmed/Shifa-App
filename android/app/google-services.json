@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "120558203904",
+    "firebase_url": "https://shifa-home-health-care-default-rtdb.firebaseio.com",
+    "project_id": "shifa-home-health-care",
+    "storage_bucket": "shifa-home-health-care.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120558203904:android:227ca10d40fd771270d4e5",
+        "android_client_info": {
+          "package_name": "com.shifa.homehealthcar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpCQYyjVPbCwo4DouQ0Wy0_ib7kFwOm9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
