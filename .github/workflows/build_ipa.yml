@@ -22,7 +22,10 @@ jobs:
       - name: Clean and Regenerate iOS files
         run: |
           flutter clean
+          cp ios/Podfile Podfile.backup
+          rm -rf ios
           flutter create . --platforms=ios
+          mv Podfile.backup ios/Podfile
 
       - name: Install dependencies
         run: flutter pub get
