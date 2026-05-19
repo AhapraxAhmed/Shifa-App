@@ -19,6 +19,11 @@ jobs:
         with:
           channel: 'stable'
 
+      - name: Clean and Regenerate iOS files
+        run: |
+          flutter clean
+          flutter create . --platforms=ios
+
       - name: Install dependencies
         run: flutter pub get
 
